@@ -16,7 +16,7 @@ struct DP{
     int active[T];
     double h[T][N]; //external stumulation
     int sz;
-    vector<pair<int,double> > v[N]; // v[i]: neurons conneted ot i
+    vector<pair<int,double> > v[N]; // v[i]: neurons connected to i
     void init(double p,double H){  // p=0.005, h=0
         int x[N];
         for(int i=0;i<N;i++)
