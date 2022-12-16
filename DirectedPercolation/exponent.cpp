@@ -15,7 +15,7 @@ struct DP{
     int state[T][N];
     int active[T];
     int sz;
-    vector<pair<int,double> > v[N]; // v[i]: neurons conneted ot i
+    vector<pair<int,double> > v[N]; // v[i]: neurons connected to i
     void init(){
         int x[N];
         for(int i=0;i<N;i++) {
